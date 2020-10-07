@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "0eab0e9e-5ef3-4f0c-a12d-b9412bea9c20",
+    "appType": "clockface",
+    "appDisplayName": "Simple with AOD",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Simple with AOD"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
